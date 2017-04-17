@@ -1,0 +1,368 @@
+[
+    {
+        "outputFile": "D:\\Benutzer\\Eagle\\Android\\AndroidStudioProjects\\Titration\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values\\values.xml",
+        "map": [
+            {
+                "to": {
+                    "startLine": 2,
+                    "startColumn": 4,
+                    "startOffset": 55,
+                    "endColumn": 39,
+                    "endOffset": 90
+                },
+                "from": {
+                    "file": "D:\\Benutzer\\Eagle\\Android\\AndroidStudioProjects\\Titration\\app\\src\\main\\res\\values\\abakus_strings.xml",
+                    "position": {
+                        "startLine": 14,
+                        "startColumn": 4,
+                        "startOffset": 964,
+                        "endColumn": 39,
+                        "endOffset": 999
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 3,
+                    "startColumn": 4,
+                    "startOffset": 95,
+                    "endColumn": 42,
+                    "endOffset": 133
+                },
+                "from": {
+                    "file": "D:\\Benutzer\\Eagle\\Android\\AndroidStudioProjects\\Titration\\app\\src\\main\\res\\values\\abakus_strings.xml",
+                    "position": {
+                        "startLine": 10,
+                        "startColumn": 4,
+                        "startOffset": 826,
+                        "endColumn": 42,
+                        "endOffset": 864
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 4,
+                    "startColumn": 4,
+                    "startOffset": 138,
+                    "endColumn": 46,
+                    "endOffset": 180
+                },
+                "from": {
+                    "file": "D:\\Benutzer\\Eagle\\Android\\AndroidStudioProjects\\Titration\\app\\src\\main\\res\\values\\abakus_strings.xml",
+                    "position": {
+                        "startLine": 11,
+                        "startColumn": 4,
+                        "startOffset": 869,
+                        "endColumn": 46,
+                        "endOffset": 911
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 5,
+                    "startColumn": 4,
+                    "startOffset": 185,
+                    "endColumn": 39,
+                    "endOffset": 220
+                },
+                "from": {
+                    "file": "D:\\Benutzer\\Eagle\\Android\\AndroidStudioProjects\\Titration\\app\\src\\main\\res\\values\\abakus_strings.xml",
+                    "position": {
+                        "startLine": 9,
+                        "startColumn": 4,
+                        "startOffset": 786,
+                        "endColumn": 39,
+                        "endOffset": 821
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 6,
+                    "startColumn": 4,
+                    "startOffset": 225,
+                    "endColumn": 42,
+                    "endOffset": 263
+                },
+                "from": {
+                    "file": "D:\\Benutzer\\Eagle\\Android\\AndroidStudioProjects\\Titration\\app\\src\\main\\res\\values\\abakus_strings.xml",
+                    "position": {
+                        "startLine": 12,
+                        "startColumn": 4,
+                        "startOffset": 916,
+                        "endColumn": 42,
+                        "endOffset": 954
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 7,
+                    "startColumn": 4,
+                    "startOffset": 268,
+                    "endColumn": 49,
+                    "endOffset": 313
+                },
+                "from": {
+                    "file": "D:\\Benutzer\\Eagle\\Android\\AndroidStudioProjects\\Titration\\app\\src\\main\\res\\values\\abakus_strings.xml",
+                    "position": {
+                        "startLine": 4,
+                        "startColumn": 4,
+                        "startOffset": 267,
+                        "endColumn": 49,
+                        "endOffset": 312
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 8,
+                    "startColumn": 4,
+                    "startOffset": 318,
+                    "endColumn": 80,
+                    "endOffset": 394
+                },
+                "from": {
+                    "file": "D:\\Benutzer\\Eagle\\Android\\AndroidStudioProjects\\Titration\\app\\src\\main\\res\\values\\abakus_strings.xml",
+                    "position": {
+                        "startLine": 3,
+                        "startColumn": 83,
+                        "startOffset": 186,
+                        "endColumn": 159,
+                        "endOffset": 262
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 9,
+                    "startColumn": 4,
+                    "startOffset": 399,
+                    "endColumn": 47,
+                    "endOffset": 442
+                },
+                "from": {
+                    "file": "D:\\Benutzer\\Eagle\\Android\\AndroidStudioProjects\\Titration\\app\\src\\main\\res\\values\\abakus_strings.xml",
+                    "position": {
+                        "startLine": 8,
+                        "startColumn": 189,
+                        "startOffset": 738,
+                        "endColumn": 232,
+                        "endOffset": 781
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 10,
+                    "startColumn": 4,
+                    "startOffset": 447,
+                    "endColumn": 83,
+                    "endOffset": 526
+                },
+                "from": {
+                    "file": "D:\\Benutzer\\Eagle\\Android\\AndroidStudioProjects\\Titration\\app\\src\\main\\res\\values\\abakus_strings.xml",
+                    "position": {
+                        "startLine": 3,
+                        "startColumn": 4,
+                        "startOffset": 107,
+                        "endColumn": 83,
+                        "endOffset": 186
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 11,
+                    "startColumn": 4,
+                    "startOffset": 531,
+                    "endColumn": 49,
+                    "endOffset": 576
+                },
+                "from": {
+                    "file": "D:\\Benutzer\\Eagle\\Android\\AndroidStudioProjects\\Titration\\app\\src\\main\\res\\values\\abakus_strings.xml",
+                    "position": {
+                        "startLine": 8,
+                        "startColumn": 144,
+                        "startOffset": 693,
+                        "endColumn": 189,
+                        "endOffset": 738
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 12,
+                    "startColumn": 4,
+                    "startOffset": 581,
+                    "endColumn": 47,
+                    "endOffset": 624
+                },
+                "from": {
+                    "file": "D:\\Benutzer\\Eagle\\Android\\AndroidStudioProjects\\Titration\\app\\src\\main\\res\\values\\abakus_strings.xml",
+                    "position": {
+                        "startLine": 6,
+                        "startColumn": 4,
+                        "startOffset": 455,
+                        "endColumn": 47,
+                        "endOffset": 498
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 13,
+                    "startColumn": 4,
+                    "startOffset": 629,
+                    "endColumn": 45,
+                    "endOffset": 670
+                },
+                "from": {
+                    "file": "D:\\Benutzer\\Eagle\\Android\\AndroidStudioProjects\\Titration\\app\\src\\main\\res\\values\\abakus_strings.xml",
+                    "position": {
+                        "startLine": 5,
+                        "startColumn": 96,
+                        "startOffset": 409,
+                        "endColumn": 137,
+                        "endOffset": 450
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 14,
+                    "startColumn": 4,
+                    "startOffset": 675,
+                    "endColumn": 54,
+                    "endOffset": 725
+                },
+                "from": {
+                    "file": "D:\\Benutzer\\Eagle\\Android\\AndroidStudioProjects\\Titration\\app\\src\\main\\res\\values\\abakus_strings.xml",
+                    "position": {
+                        "startLine": 8,
+                        "startColumn": 54,
+                        "startOffset": 603,
+                        "endColumn": 104,
+                        "endOffset": 653
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 15,
+                    "startColumn": 4,
+                    "startOffset": 730,
+                    "endColumn": 44,
+                    "endOffset": 770
+                },
+                "from": {
+                    "file": "D:\\Benutzer\\Eagle\\Android\\AndroidStudioProjects\\Titration\\app\\src\\main\\res\\values\\abakus_strings.xml",
+                    "position": {
+                        "startLine": 8,
+                        "startColumn": 104,
+                        "startOffset": 653,
+                        "endColumn": 144,
+                        "endOffset": 693
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 16,
+                    "startColumn": 4,
+                    "startOffset": 775,
+                    "endColumn": 39,
+                    "endOffset": 810
+                },
+                "from": {
+                    "file": "D:\\Benutzer\\Eagle\\Android\\AndroidStudioProjects\\Titration\\app\\src\\main\\res\\values\\abakus_strings.xml",
+                    "position": {
+                        "startLine": 5,
+                        "startColumn": 4,
+                        "startOffset": 317,
+                        "endColumn": 39,
+                        "endOffset": 352
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 17,
+                    "startColumn": 4,
+                    "startOffset": 815,
+                    "endColumn": 61,
+                    "endOffset": 872
+                },
+                "from": {
+                    "file": "D:\\Benutzer\\Eagle\\Android\\AndroidStudioProjects\\Titration\\app\\src\\main\\res\\values\\abakus_strings.xml",
+                    "position": {
+                        "startLine": 5,
+                        "startColumn": 39,
+                        "startOffset": 352,
+                        "endColumn": 96,
+                        "endOffset": 409
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 18,
+                    "startColumn": 4,
+                    "startOffset": 877,
+                    "endColumn": 54,
+                    "endOffset": 927
+                },
+                "from": {
+                    "file": "D:\\Benutzer\\Eagle\\Android\\AndroidStudioProjects\\Titration\\app\\src\\main\\res\\values\\abakus_strings.xml",
+                    "position": {
+                        "startLine": 8,
+                        "startColumn": 4,
+                        "startOffset": 553,
+                        "endColumn": 54,
+                        "endOffset": 603
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 19,
+                    "startColumn": 4,
+                    "startOffset": 932,
+                    "endColumn": 49,
+                    "endOffset": 977
+                },
+                "from": {
+                    "file": "D:\\Benutzer\\Eagle\\Android\\AndroidStudioProjects\\Titration\\app\\src\\main\\res\\values\\abakus_strings.xml",
+                    "position": {
+                        "startLine": 7,
+                        "startColumn": 4,
+                        "startOffset": 503,
+                        "endColumn": 49,
+                        "endOffset": 548
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 20,
+                    "startColumn": 4,
+                    "startOffset": 982,
+                    "endColumn": 51,
+                    "endOffset": 1029
+                },
+                "from": {
+                    "file": "D:\\Benutzer\\Eagle\\Android\\AndroidStudioProjects\\Titration\\app\\src\\main\\res\\values\\abakus_strings.xml",
+                    "position": {
+                        "startLine": 2,
+                        "startColumn": 4,
+                        "startOffset": 55,
+                        "endColumn": 51,
+                        "endOffset": 102
+                    }
+                }
+            }
+        ]
+    }
+]

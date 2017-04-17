@@ -1,0 +1,365 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/hintergrund"
+    android:gravity="center|center_horizontal|left|top"
+    android:orientation="vertical" >
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="@string/Beschriftung"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:textColor="@android:color/black" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <Button
+            android:id="@+id/btnClear"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toLeftOf="@+id/btnRechne"
+            android:minEms="6"
+            android:onClick="btnClearOnClickHandler"
+            android:text="@string/EingabeLoeschen" />
+
+        <Button
+            android:id="@+id/btnRechne"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:gravity="center_vertical|center_horizontal"
+            android:minEms="6"
+            android:nextFocusDown="@+id/Einwaage_1"
+            android:nextFocusLeft="@+id/Faktor"
+            android:nextFocusRight="@+id/Einwaage_1"
+            android:nextFocusUp="@+id/Faktor"
+            android:onClick="btnRechneOnClickHandler"
+            android:text="@string/Berechnung" />
+
+        <Button
+            android:id="@+id/btnClearall"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentTop="true"
+            android:layout_toRightOf="@+id/btnRechne"
+            android:minEms="6"
+            android:onClick="btnClearAllOnClickHandler"
+            android:text="@string/Clear_all" />
+
+    </RelativeLayout>
+
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <TableRow
+            android:id="@+id/tableRow5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" >
+
+            <EditText
+                android:id="@+id/Urtiter"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:ellipsize="start"
+                android:gravity="left|center_vertical"
+                android:hint="@string/Urtiter"
+                android:inputType="numberSigned|numberDecimal"
+                android:maxEms="10"
+                android:nextFocusDown="@id/Faktor"
+                android:nextFocusRight="@id/Faktor"
+                android:textAppearance="?android:attr/textAppearanceSmallInverse"
+                android:textColor="@color/cGold"
+                android:textColorHint="@color/cGold"
+                android:visibility="visible" />
+
+              <requestFocus />
+            <EditText
+                android:id="@+id/Faktor"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:ellipsize="start"
+                android:ems="10"
+                android:gravity="center_vertical"
+                android:hint="@string/Faktor"
+                android:inputType="numberSigned|numberDecimal"
+                android:minEms="6"
+                android:nextFocusDown="@+id/Einwaage_1"
+                android:nextFocusRight="@+id/Einwaage_1"
+                android:textAppearance="?android:attr/textAppearanceSmallInverse"
+                android:textColor="@color/cGold"
+                android:textColorHint="@color/cGold"
+                android:visibility="visible" >
+
+              </EditText>
+
+        </TableRow>
+    </TableLayout>
+
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.25" >
+
+        <TableRow
+            android:id="@+id/tableRow1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" >
+
+            <EditText
+                android:id="@+id/Einwaage_1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:ellipsize="start"
+                android:gravity="center_vertical"
+                android:hint="@string/Einwaage"
+                android:inputType="numberSigned|numberDecimal"
+                android:minEms="6"
+                android:nextFocusDown="@+id/Einwaage_2"
+                android:nextFocusRight="@+id/Einwaage_2"
+                android:textAppearance="?android:attr/textAppearanceSmallInverse"
+                android:textColor="@color/cGold"
+                android:textColorHint="@color/cGold" />
+
+            <EditText
+                android:id="@+id/Verbrauch_1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:ellipsize="start"
+                android:gravity="center_vertical"
+                android:hint="@string/Verbrauch"
+                android:inputType="numberSigned|numberDecimal"
+                android:minEms="6"
+                android:textAppearance="?android:attr/textAppearanceSmallInverse"
+                android:textColor="@color/cGold"
+                android:textColorHint="@color/cGold" >
+
+            </EditText>
+
+            <TextView
+                android:id="@+id/tvErgebnis1"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginBottom="5dp"
+                android:layout_marginLeft="5dp"
+                android:background="@color/cGold"
+                android:gravity="left|center_vertical"
+                android:minEms="6"
+                android:text="@string/Titer"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:textColor="@color/cSchwarz" />
+
+        </TableRow>
+
+        <TableRow
+            android:id="@+id/tableRow2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" >
+
+            <EditText
+                android:id="@+id/Einwaage_2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:ellipsize="start"
+                android:gravity="center_vertical"
+                android:hint="@string/Einwaage"
+                android:inputType="numberSigned|numberDecimal"
+                android:minEms="6"
+                android:textAppearance="?android:attr/textAppearanceSmallInverse"
+                android:textColor="@color/cGold"
+                android:textColorHint="@color/cGold" />
+
+            <EditText
+                android:id="@+id/Verbrauch_2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:ellipsize="start"
+                android:gravity="center_vertical"
+                android:hint="@string/Verbrauch"
+                android:inputType="numberSigned|numberDecimal"
+                android:minEms="6"
+                android:textAppearance="?android:attr/textAppearanceSmallInverse"
+                android:textColor="@color/cGold"
+                android:textColorHint="@color/cGold" />
+
+            <TextView
+                android:id="@+id/tvErgebnis2"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginBottom="5dp"
+                android:layout_marginLeft="5dp"
+                android:background="@color/cGold"
+                android:gravity="left|center_vertical"
+                android:minEms="6"
+                android:text="@string/Titer"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:textColor="@color/cSchwarz" />
+
+        </TableRow>
+
+        <TableRow
+            android:id="@+id/tableRow3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" >
+
+            <EditText
+                android:id="@+id/Einwaage_3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:ellipsize="start"
+                android:gravity="center_vertical"
+                android:hint="@string/Einwaage"
+                android:inputType="numberSigned|numberDecimal"
+                android:minEms="6"
+                android:textAppearance="?android:attr/textAppearanceSmallInverse"
+                android:textColor="@color/cGold"
+                android:textColorHint="@color/cGold" />
+
+            <EditText
+                android:id="@+id/Verbrauch_3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:ellipsize="start"
+                android:gravity="center_vertical"
+                android:hint="@string/Verbrauch"
+                android:inputType="numberSigned|numberDecimal"
+                android:minEms="6"
+                android:textAppearance="?android:attr/textAppearanceSmallInverse"
+                android:textColor="@color/cGold"
+                android:textColorHint="@color/cGold" />
+
+            <TextView
+                android:id="@+id/tvErgebnis3"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginBottom="5dp"
+                android:layout_marginLeft="5dp"
+                android:background="@color/cGold"
+                android:gravity="left|center_vertical"
+                android:minEms="6"
+                android:text="@string/Titer"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:textColor="@color/cSchwarz" />
+
+        </TableRow>
+
+        <TableRow
+            android:id="@+id/tableRow4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" >
+
+            <EditText
+                android:id="@+id/Einwaage_4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:ellipsize="start"
+                android:gravity="center_vertical"
+                android:hint="@string/Einwaage"
+                android:inputType="numberSigned|numberDecimal"
+                android:minEms="6"
+                android:nextFocusDown="@+id/Verbrauch_1"
+                android:nextFocusRight="@+id/Verbrauch_1"
+                android:textAppearance="?android:attr/textAppearanceSmallInverse"
+                android:textColor="@color/cGold"
+                android:textColorHint="@color/cGold" />
+
+            <EditText
+                android:id="@+id/Verbrauch_4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:ellipsize="start"
+                android:gravity="center_vertical"
+                android:hint="@string/Verbrauch"
+                android:inputType="numberSigned|numberDecimal"
+                android:minEms="6"
+                android:textAppearance="?android:attr/textAppearanceSmallInverse"
+                android:textColor="@color/cGold"
+                android:textColorHint="@color/cGold" />
+
+            <TextView
+                android:id="@+id/tvErgebnis4"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginBottom="5dp"
+                android:layout_marginLeft="5dp"
+                android:background="@color/cGold"
+                android:gravity="left|center_vertical"
+                android:minEms="6"
+                android:text="@string/Titer"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:textColor="@color/cSchwarz" />
+
+        </TableRow>
+    </TableLayout>
+
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <TableRow
+            android:id="@+id/TableRow01"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="right" >
+        </TableRow>
+
+        <TableRow
+            android:id="@+id/tableRow6"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="right" >
+
+            <TextView
+                android:id="@+id/tvErgebnis5"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginBottom="5dp"
+                android:layout_marginLeft="5dp"
+                android:background="@color/cGold"
+                android:gravity="left"
+                android:text="@string/Ergebnis"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textColor="@color/cSchwarz" />
+
+        </TableRow>
+
+        <TableRow
+            android:id="@+id/tableRow7"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="right" >
+
+            <TextView
+                android:id="@+id/tvErgebnis6"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginBottom="5dp"
+                android:layout_marginLeft="5dp"
+                android:background="@color/cGold"
+                android:gravity="left"
+                android:text="@string/STD"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textColor="@color/cSchwarz" />
+
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textColor="@color/cSchwarz" />
+
+        </TableRow>
+    </TableLayout>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="@string/Copyright"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:textColor="@android:color/black" />
+
+</LinearLayout>
